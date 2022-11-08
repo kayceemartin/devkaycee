@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevKaycee Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfr0j+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e88c88a010.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/devkaycee.png" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Introduction-->
+
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Kaycee Martin</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">FRONT  END  DEV</p>
+        <img src="img/parissunglasses.jpeg" alt="kayceeparis" class="intro__img">
+    </section>
+
+    <!--My Services-->
+
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Design + Development</h3>
+                <p>I create custom, modern, user-friendly websites to engage your target audience. Lorem ipsum dolor sit
+                    amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="service">
+                <h3>CMS</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="service">
+                <h3>WordPress</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!--About me-->
+
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Developer, Designer, & Environmentalist</p>
+
+        <div class="about-me__body">
+            <p>
+                I am an ambitious, focused and passionate web developer with a vast skill set and appreciation for
+                technology, nature preservation and software engineering. Due to my experience in numerous leadership
+                roles, I am capable of planning, organizing, implementing and monitoring team projects – especially when
+                specific deadlines are demanded. With a background in graphic design, combined with my knowledge of
+                HTML, CSS, JavaScript, Python, and other languages, I enjoy fusing creativity with logic in order to
+                write code that is elegant and effective. My involvements in graphic design, environmental
+                sustainability, political campaigning and software engineering have collectively and uniquely prepared
+                me to be a competent, artistic, proficient and powerful programmer.
+            </p>
+        </div>
+        <img src="img/kayceecoffee.jpeg" alt="kayceecoffee" class="about-me__img">
+    </section>
+
+    <!--My work-->
+
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My work</h2>
+        <p class="section__subtitle section__subtitle--work">A selction of my range of work</p>
+
+        <div class="portfolio">
+            <!--Portfolio item 1-->
+            <a href="portfolio-item.html" class="portfolio__item">
+                <img src="img/crag.png" alt="crag" class="portfolio__img">
+            </a>
+            <!--Portfolio item 2-->
+            <a href="portfolio-item2.html" class="portfolio__item">
+                <img src="img/mansplain.png" alt="mansplainer" class="portfolio__img">
+            </a>
+            <!--Portfolio item 3-->
+            <a href="portfolio-item3.html" class="portfolio__item">
+                <img src="img/basecamp.png" alt="basecamp" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+    <!--Foooter-->
+    <footer class="footer">
+        <a href="mailto:kayceemartin@gmail.com" class="footer__link">kayceemartin94@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/kayceemartin">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/kayceemartin/">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.instagram.com/chips.n.kayc.o/">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://twitter.com/chips_n_kayc_o">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
